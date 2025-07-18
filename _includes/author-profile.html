@@ -17,11 +17,10 @@
         {% if author.college %}
           <span>{{ author.college }}</span>
         {% endif %}
+        {% if site.description %}
+            <p class="author__bio">{{ site.description }}</p>
+        {% endif %}
       </p>
-    {% endif %}
-    
-    {% if site.description %}
-      <p class="author__bio">{{ site.description }}</p>
     {% endif %}
   </div>  
 
