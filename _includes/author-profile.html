@@ -11,11 +11,19 @@
 
   <div class="author__content" style="text-align: center;">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio" style="font-weight: bold;">{{ author.bio }}
-        {% if author.college %}<p class="author__bio">{{ author.college }}
-    </p>{% endif %}
-    {% if site.description %}<p class="author__bio">{{ site.description }}</p>{% endif %}
-  </div>
+    
+    {% if author.bio %}
+      <p class="author__bio" style="font-weight: bold;">{{ author.bio }}</p>
+    {% endif %}
+    
+    {% if author.college %}
+      <p class="author__bio">{{ author.college }}</p>
+    {% endif %}
+    
+    {% if site.description %}
+      <p class="author__bio">{{ site.description }}</p>
+    {% endif %}
+  </div>  
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
