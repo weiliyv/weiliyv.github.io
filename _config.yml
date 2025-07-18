@@ -8,7 +8,7 @@
 # Site Settings
 title: "于立伟"
 description: "软件学院 软件工程 2021级本科生"
-repository               : "https://btlazzq.github.io/"
+repository: "https://btlazzq.github.io/"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,8 +21,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "王菡悦"
-  avatar           : "images/lu.png"
+  name             : "于立伟"
+  avatar           : "image/profile.png"
   bio              : "新疆大学"
   location         : "新疆维吾尔自治区乌鲁木齐市"
   employer         :
