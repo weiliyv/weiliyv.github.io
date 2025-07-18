@@ -19,41 +19,41 @@ author:
   college          : "软件学院"
   location         : "甘肃省酒泉市肃州区"
   employer         : "3443531275@qq.com"
-  pubmed           : 
+  pubmed           : "1"
   # googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "3443531275@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  uri              : "2"
+  bitbucket        : "3"
+  codepen          : "4"
+  dribbble         : "5"
+  flickr           : "6"
+  facebook         : "7"
+  foursquare       : "8"
   github           : "weiliyv"
-  csdn             :
+  csdn             : "9"
   bilibili         :
   zhihu            :
-  boke             :
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  boke             : "10"
+  google_plus      : "11"
+  keybase          : "12"
+  instagram        : "13"
+  impactstory      : "16" # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           : "14"
+  linkedin         : "17" # e.g., "linkedin username"
+  dblp             :  "18" # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            :  "19" # e.g., "https://orcid.org/xxxx"
+  pinterest        : "20"
+  soundcloud       : "21"
+  stackoverflow    : "22" # http://stackoverflow.com/users/123456/username
+  steam            : "23"
+  tumblr           : "24"
+  twitter          : "25"
+  vine             : "26"
+  weibo            : "27"
+  xing             : "28"
+  youtube          : "29"
+  wikipedia        : "30"
 
 
 encoding: utf-8
