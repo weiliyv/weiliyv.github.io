@@ -60,9 +60,7 @@
       {% if author.email %}
       <!-- <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>{{ author.email }}</a></li> -->
       <li><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
-        <span style="margin-left: 1px;">
-            {{ author.email }}
-        </span>
+        &nbsp; &nbsp; {{ author.email }}
       </li>
       {% endif %}
       {% if author.keybase %}
@@ -74,8 +72,8 @@
           ResearchGate</a></li>
       {% endif %}
       {% if author.csdn %}
-      <li><a href="{{ author.csdn }}"><i class="iconfont icon-csdn"
-            aria-hidden="true"></i> CSDN </a></li>
+      <li><a href="{{ author.csdn }}">&nbsp;<i class="iconfont icon-csdn"
+            aria-hidden="true"></i>&nbsp; CSDN </a></li>
       {% endif %}
 
 
