@@ -73,16 +73,20 @@
       {% endif %}
       {% if author.csdn %}
       <li><a href="{{ author.csdn }}"><i class="iconfont icon-csdn"
-            aria-hidden="true"></i>&nbsp; CSDN </a></li>
+            aria-hidden="true"></i>&nbsp; CSDN-个人博客 </a></li>
       {% endif %}
-
-
-
-
-
-
-
-
+      {% if author.bilibili %}
+      <li><a href="{{ author.bilibili }}"><i class="iconfont icon-Bilibili"
+            aria-hidden="true"></i>&nbsp; BiliBili-UP主 </a></li>
+      {% endif %}
+      {% if author.zhihu %}
+      <li><a href="{{ author.zhihu }}"><i class="iconfont icon-zhihu"
+            aria-hidden="true"></i>&nbsp; 知乎-个人博客 </a></li>
+      {% endif %}
+      {% if author.gitee %}
+      <li><a href="{{ author.gitee }}"><i class="iconfont icon-gitee"
+            aria-hidden="true"></i>&nbsp; Gitee-个人代码仓库 </a></li>
+      {% endif %}
       {% if author.twitter %}
       <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter-square"
             aria-hidden="true"></i> Twitter</a></li>
@@ -119,8 +123,8 @@
             aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       {% if author.github %}
-      <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
-          Github</a></li>
+      <li><a href="{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>
+        GitHub-个人代码仓库</a></li>
       {% endif %}
       {% if author.stackoverflow %}
       <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i
